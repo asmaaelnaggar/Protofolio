@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/protofolio.css">
+    <link rel="stylesheet" href="/proto2.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Asmaa Elnaggar</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                              Portfolio
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Services
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Asmaa Elnaggar</h1>
+                <h4 class="sub-heading">
+                    A Front-end Web Developer
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn common-btn"><a class="links" href="#contact">
+                  Hire Me
+                </a></button>
+                
+                  <a href="Asmaa_Elnaggar_CV.pdf" download="Asmaa_Elnaggar_CV.pdf">
+                    <button id="downloadBtn" class="btn ghost-btn">Download Resume</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Projects</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                          <a href="https://www.linkedin.com/posts/asmaa-elnaggar-17a370224_webdevelopment-javascript-html-activity-7276569644335828992-hAQe?utm_source=share&utm_medium=member_android">View on linked in</a>
+                        </div>
+                        <h3 class="greet-heading blue-text">To Do list Simple App</h3>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                      <div class="image">
+                        <a href="https://www.linkedin.com/posts/asmaa-elnaggar-17a370224_webdesign-html-css-activity-7277086034432061441-ZXXp?utm_source=share&utm_medium=member_android">View on linked in</a>
+                      </div>
+                      <h3 class="greet-heading blue-text">Wizard design</h3>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                      <div class="image">
+                        <a href="https://www.linkedin.com/posts/asmaa-elnaggar-17a370224_frontenddevelopment-webdesign-html-activity-7278003328683302912-AHNx?utm_source=share&utm_medium=member_android">View on linked in</a>
+                      </div>
+                      <h3 class="greet-heading blue-text">Landing Page learning Website</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/contentImage2.avif" 
+                                 alt="Content Writting Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Content Writing
+                          </h3>
+                        <p class="small-para blue-text">Writing</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/wordpressImage2.avif" 
+                                 alt="Wordpress Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Wordpress Dev
+                          </h3>
+                        <p class="small-para blue-text">
+                              Content Management System
+                          </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/videoEditing2.avif" 
+                                 alt="Video Editing Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para blue-text">Editing</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+              I am a passionate Front-End Developer with expertise in React.js, dedicated to building dynamic, user-friendly, and responsive web applications. With a strong foundation in HTML, CSS, and JavaScript, I specialize in crafting seamless UI/UX experiences that enhance user engagement.
+
+              I enjoy turning complex problems into intuitive and interactive designs, leveraging modern frameworks and best coding practices. Always eager to learn and stay updated with the latest web technologies, I strive to deliver high-performance, scalable, and visually appealing applications.
+              
+              Let’s build something amazing together! 🚀
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="image.png" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">User Interface (UI) Development</h3>
+                        <p class="small-para">
+                          Focuses on creating visually appealing and interactive designs using HTML, CSS, and JavaScript.
+                          Implements layouts, buttons, forms, and other UI elements based on design mockups (Figma, Adobe XD, etc.).
+                          Ensures a responsive and consistent design across different screen sizes.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                          <i class="fa-solid fa-users"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                          User Experience (UX) Enhancement
+                          </h3>
+                        <p class="small-para">
+                          Improves website usability, accessibility, and overall experience.
+                          Implements smooth navigation, animations, and micro-interactions to enhance engagement.
+                          Follows best practices for readability, color contrast, and mobile-friendliness.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">SEO</h3>
+                        <p class="small-para">
+                          SEO (Search Engine Optimization) is crucial for improving a website's visibility on search engines like Google, Bing, and Yahoo. As a front-end developer, implementing SEO best practices ensures that a website ranks higher in search results, leading to more traffic and engagement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                          Integration with Backend & APIs
+                          </h3>
+                        <p class="small-para">
+                          Fetches and displays dynamic data using RESTful APIs or GraphQL.
+                          Works with AJAX, Fetch API, or Axios for real-time data updates.
+                          Collaborates with backend developers to ensure seamless data flow.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                          <i class="fa-solid fa-code-compare"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                          Version Control & Deployment
+                          </h3>
+                        <p class="small-para">
+                          Uses Git & GitHub/GitLab for code management and collaboration.
+                          Deploys websites using platforms like Vercel, Netlify, or Firebase.
+                          Automates deployment workflows with CI/CD pipelines.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                          <i class="fa-solid fa-chart-simple"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                          Performance Optimization
+                          </h3>
+                        <p class="small-para">
+                          Ensures fast loading times by optimizing images, CSS, JavaScript, and fonts.
+                          Implements lazy loading, caching, and minimizing HTTP requests.
+                          Uses tools like Google Lighthouse to analyze and improve performance scores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">asmaaelnaggar22@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">01097711688</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">Elbehira</p>
+                    <p>Damnhour</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2025 All rights reserved |
+                asmaa elnaggar
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.facebook.com/asmaa.elnager.963?mibextid=ZbWKwL">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.fiverr.com/asmaa_elnaggar/buying?source=avatar_menu_profile">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
+                                  <circle cx="0" cy="0" r="0" fill="#35A99C"></circle><path fill="#fff" d="M35.066,22.035v-0.959h-1.821l-0.8-0.014c-0.684,0-1.151,0.45-1.335,0.974v-0.959h-2.039V27.3 h2.039v-1.334v-2.066c0-0.62,0.503-1.123,1.123-1.123h0.795v4.523h2.039v-1.334v-2.066c0-0.62,0.503-1.123,1.123-1.123h1.012v-1.7 l-0.8-0.014C35.718,21.061,35.25,21.512,35.066,22.035z M20.56,21.206l-1.094,3.597l-1.093-3.597h-2.039l2.215,6.223h0.12h1.597 h0.12l2.213-6.223H20.56z M12.23,21.206v-0.415c0-0.364,0.294-0.658,0.658-0.658h1.287v-1.706h-1.767 c-1.223,0-2.216,0.991-2.216,2.216v0.564H9v1.649h1.192v4.572h2.039v-4.572h1.944v4.572h2.039v-4.572v-1.649h-2.039H12.23V21.206z M25.424,21.122h-0.248c-1.67,0-3.024,1.354-3.024,3.024v0.342c0,1.67,1.354,3.024,3.024,3.024h0.552 c1.143,0,2.122-0.706,2.524-1.705l-1.798-0.525c0,0-0.215,0.616-0.965,0.616c-0.847,0-1.295-0.463-1.354-0.989l0,0v-0.003 c-0.004-0.038-0.006-0.077-0.006-0.115h2.3h2.022v-0.643C28.448,22.476,27.094,21.122,25.424,21.122z M24.13,23.59 c0.025-0.559,0.485-1.006,1.051-1.006h0.194c0.565,0,1.026,0.446,1.051,1.006H24.13z"></path><circle cx="38.852" cy="26.305" r="1.268" fill="#263238"></circle>
+                                  </svg>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.instagram.com/asma_elnaggar22?igsh=OGQ5ZDc2ODk2ZA==">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.linkedin.com/in/asmaa-elnaggar-17a370224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="/protofliol.js">
+      document.getElementById("downloadBtn").addEventListener("click", function() {
+    const link = document.createElement("a");
+    link.href = "file.pdf";  // PDF file path
+    link.download = "my-document.pdf"; // Custom file name
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
+    </script>
+</body>
+
+</html>
